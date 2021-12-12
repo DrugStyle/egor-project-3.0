@@ -1,0 +1,124 @@
+
+a:hover {
+    text-decoration: none;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 200px;
+}
+
+.logo {
+    text-align: left;
+    height: 19px;
+    width: 140px;
+}
+
+div.navbar-collapse {
+}
+
+.nav-link {
+    font-family: roboto-basic, Roboto, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    color: #11161d;
+    letter-spacing: .02em;
+    margin-left: 6px;
+    min-width: 80px;
+}
+
+
+h1 {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    margin: 0;
+    font-size: 2.9em;
+    color: #202730;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 1.25em;
+    color: #202730;
+}
+
+.top {
+    font-size: 1.25em;
+}
+
+.btn1 {
+    background-color: #00BFFF;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.3em;
+    padding: 18px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: .1em;
+}
+
+.center-img {
+    display: block;
+    margin: 69px 0;}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.card-deck {
+    width: auto;
+    text-align: center;
+}
+.menu{
+    margin: 0 101.5px;
+    padding:0 20px;
+}
+.container-last{
+    background-image:url(img/bgblue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn2 {
+  display: inline-block;
+  padding:10px 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size:1.2em;
+  border-radius: 45px;
+
+}
+a.footer{
+    font-size:1em;
+    color:grey;
+    padding:0 10px;
+}
+a.btn2:hover{
+    color:blue;
+    background-color:white;
+}
+.nav-item{
+    text-align: center;
+}
+@media screen and (max-width:990px){
+.navbar-collapse{
+    margin:15px!important;
+}
+    .center-img {
+        padding:0px!important;
+    display: block;}
+
+    .card-body1{
+        width: 100%!important;
+        margin:0!important;
+        padding:0!important;}
+
+    .container1{
+        margin:0!important;
+        padding:0!important;}
+}
